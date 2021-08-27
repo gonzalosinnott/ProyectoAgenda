@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4f+u+pZKR+sYcNMegpY6e9gZ4y+f6obzV5ttMhOjsyQDNdMBcGryKyY3KR99L7d/aQjcS7cmiVeKoEN3ZrAwCA==",
+  "dgSpecHash": "ac0wcime3baepM0gZYgqqFjmGUj2nzGJaQV0XK/xQSsjUTXduGWnhgab5Reo79CQksmZ3jiNwZVLKbGdBnkOhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gonzalosinnott\\Desktop\\Proyecto_Agenda\\Agenda\\Agenda\\Agenda.csproj",
+  "projectFilePath": "D:\\Portfolio\\ProyectoAgenda\\Agenda\\Agenda.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\gonzalosinnott\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.1.17\\microsoft.aspnetcore.mvc.razor.extensions.3.1.17.nupkg.sha512",
     "C:\\Users\\gonzalosinnott\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\3.1.17\\microsoft.aspnetcore.mvc.razor.runtimecompilation.3.1.17.nupkg.sha512",

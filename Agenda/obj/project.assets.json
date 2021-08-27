@@ -662,11 +662,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gonzalosinnott\\Desktop\\Proyecto_Agenda\\Agenda\\Agenda\\Agenda.csproj",
+      "projectUniqueName": "D:\\Portfolio\\ProyectoAgenda\\Agenda\\Agenda.csproj",
       "projectName": "Agenda",
-      "projectPath": "C:\\Users\\gonzalosinnott\\Desktop\\Proyecto_Agenda\\Agenda\\Agenda\\Agenda.csproj",
+      "projectPath": "D:\\Portfolio\\ProyectoAgenda\\Agenda\\Agenda.csproj",
       "packagesPath": "C:\\Users\\gonzalosinnott\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gonzalosinnott\\Desktop\\Proyecto_Agenda\\Agenda\\Agenda\\obj\\",
+      "outputPath": "D:\\Portfolio\\ProyectoAgenda\\Agenda\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
