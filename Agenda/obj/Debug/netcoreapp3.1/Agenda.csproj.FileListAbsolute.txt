@@ -734,3 +734,4 @@ D:\Portfolio\ProyectoAgenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.csproj.CopyCom
 D:\Portfolio\ProyectoAgenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.dll
 D:\Portfolio\ProyectoAgenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.pdb
 D:\Portfolio\ProyectoAgenda\Agenda\obj\Debug\netcoreapp3.1\Agenda.genruntimeconfig.cache
+D:\Portfolio\ProyectoAgenda\Agenda\obj\Debug\netcoreapp3.1\Razor\Pages\Categories\Index.cshtml.g.cs
