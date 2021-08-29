@@ -37,9 +37,9 @@
                         <td>@Html.DisplayFor(m => categories.Name)</td>
                         <td>@Html.DisplayFor(m => categories.CreationDate)</td>
                         <td>
-                            <a class="btn btn-success" asp-page="../Categories/Details" asp-route-id="categories.id">Details</a>
-                            <a class="btn btn-warning" asp-page="../Categories/Edit" asp-route-id="categories.id">Edit</a>
-                            <a class="btn btn-danger" asp-page="../Categories/Delete" asp-route-id="categories.id">Delete</a>
+                            <a class="btn btn-success" asp-page="../Categories/Details" asp-route-id="@categories.Id">Details</a>
+                            <a class="btn btn-warning" asp-page="../Categories/Edit" asp-route-id="@categories.Id">Edit</a>
+                            <a class="btn btn-danger" asp-page="../Categories/Delete" asp-route-id="@categories.Id">Delete</a>
 
                         </td>
                     </tr>
