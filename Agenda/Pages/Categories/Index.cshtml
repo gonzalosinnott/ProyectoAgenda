@@ -14,4 +14,42 @@
             <a class="btn btn-secondary" asp-page="/Categories/Create">Create new category</a>
         </div>
     </div>
+
+    <br />
+    <br />
+
+    @if(Model.Categories.Count() > 0)
+    {
+        <table id="tblCategories" class=" table table-striped table-bordered" style="width:100%" >
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(m => m.Categories.FirstOrDefault().Id)</th>
+                    <th>@Html.DisplayNameFor(m => m.Categories.FirstOrDefault().Name)</th>
+                    <th>@Html.DisplayNameFor(m => m.Categories.FirstOrDefault().CreationDate)</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var categories in Model.Categories)
+	            {
+                    <tr>
+                        <td>@Html.DisplayFor(m => categories.Id)</td>
+                        <td>@Html.DisplayFor(m => categories.Name)</td>
+                        <td>@Html.DisplayFor(m => categories.CreationDate)</td>
+                        <td>
+                            <a class="btn btn-success" asp-page="../Categories/Details" asp-route-id="categories.id">Details</a>
+                            <a class="btn btn-warning" asp-page="../Categories/Edit" asp-route-id="categories.id">Edit</a>
+                            <a class="btn btn-danger" asp-page="../Categories/Delete" asp-route-id="categories.id">Delete</a>
+
+                        </td>
+                    </tr>
+	            }                
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No categories found</p>
+    }
+
 </div>

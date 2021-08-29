@@ -1,0 +1,40 @@
+﻿@page
+@model Agenda.Pages.Categories.CreateModel
+@{
+
+    ViewData["Title"] = "Create Category";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-8 offset-2">
+            <div class="text-info">Create new category</div>
+
+            <form method="POST">
+                <div class="mb-3">
+                    <label asp-for="Category.Name" class="form-label"></label>
+                    <input asp-for="Category.Name" class="form-control" placeholder="Enter name" />
+                    <span asp-validation-for="Category.Name" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Category.CreationDate" class="form-label"></label>
+                    <input asp-for="Category.CreationDate" class="form-control" />
+                    <span asp-validation-for="Category.CreationDate" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Create category</button>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-6">
+            <a asp-page="Index" class="btn btn-success">Return</a>
+        </div>
+    </div>
+</div>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial" />
+}
