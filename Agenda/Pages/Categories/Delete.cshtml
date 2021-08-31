@@ -1,5 +1,5 @@
 ﻿@page
-@model Agenda.Pages.Categories.EditModel
+@model Agenda.Pages.Categories.DeleteModel
 @{
     ViewData["TItle"] = "Edit category";
 }
@@ -7,7 +7,7 @@
 <div class="container">
     <div class="row">
         <div class="col-8 offset-2">
-            <h2 class="text-info">Edit Category</h2>
+            <h2 class="text-info">Delete Category</h2>
 
             <form method="post">
 
@@ -15,17 +15,17 @@
 
                 <div class="mb-3">
                     <label asp-for="Category.Name" class="form-label"></label>
-                    <input asp-for="Category.Name" class="form-control" placeholder="Enter name" />
+                    <input asp-for="Category.Name" class="form-control" placeholder="Enter name" readonly />
                     <span asp-validation-for="Category.Name" class="text-danger"></span>
                 </div>
 
                 <div class="mb-3">
                     <label asp-for="Category.CreationDate" class="form-label"></label>
-                    <input asp-for="Category.CreationDate" class="form-control" />
+                    <input asp-for="Category.CreationDate" class="form-control" readonly/>
                     <span asp-validation-for="Category.CreationDate" class="text-danger"></span>
                 </div>
 
-                <button type="submit" class="btn btn-primary">Edit category</button>
+                <button type="submit" class="btn btn-primary">Delete category</button>
             </form>
         </div>
     </div>
@@ -36,7 +36,4 @@
     </div>
 </div>
 
-@section Scripts
-{
-    <partial name="_ValidationScriptsPartial" />
-}
+
